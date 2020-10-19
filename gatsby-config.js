@@ -1,10 +1,10 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
- */
-
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: 'digitalPlatoon',
+    description: 'The best digital agency in the world',
+    author: 'Chris Harley',
+    keywords:
+      'Digital Agency, Web Development, SEO, Fast Websites, Secure Websites, Serverless, Web Applications'
+  },
+  plugins: [`gatsby-plugin-emotion`, `gatsby-plugin-react-helmet`]
 }
